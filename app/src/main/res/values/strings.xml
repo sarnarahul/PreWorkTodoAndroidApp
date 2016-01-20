@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PreWorkTodo</string>
+    <string name="add">Add</string>
+    <string name="add_item">Add new item...</string>
+    <string name="title_activity_edit_item">EditItemActivity</string>
+    <string name="save_item">Save</string>
+</resources>
