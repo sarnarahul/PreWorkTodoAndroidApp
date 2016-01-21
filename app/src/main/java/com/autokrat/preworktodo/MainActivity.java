@@ -116,8 +116,10 @@ public class MainActivity extends AppCompatActivity {
         try{
             todoItems = new ArrayList<String>(FileUtils.readLines(file));
         }catch(IOException e) {
-            System.out.println("Error Reading Items");
-            Toast.makeText(this, "Error!", Toast.LENGTH_SHORT).show();
+            if(todoItems!=null){
+                System.out.println("Error Reading Items");
+                Toast.makeText(this, "Error!", Toast.LENGTH_SHORT).show();
+            }
         }
     }
 
